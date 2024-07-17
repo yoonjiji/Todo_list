@@ -1,0 +1,105 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#wrap {
+    width: 100%;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+}
+
+#clock {
+    margin: 50px;
+    font-size: 100px;
+}
+
+/* login */
+.hidden {
+    display: none;
+}
+input {
+    color: #fff;
+    border: none;
+    border-bottom: 3px solid #ffffffcb;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+input::placeholder {
+    color: #ffffff96;
+    font-size: 16px;
+}
+
+/* login : greeting */
+#cont {
+    display: flex;
+    position: relative;
+}
+#greeting {
+
+}
+.btn {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 0 0 10px;
+    position: absolute;
+    top: 10px;
+}
+
+/* todo */
+button {
+    padding: 5px;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+/* quote */
+#quote {
+    position: absolute;
+    bottom: 40px;
+    padding: 0 40px;
+}
+#quote span {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #ffffffcb;
+}
+#quote span:last-child {
+    margin-top: 10px;
+}
+
+#weather {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px;
+}
+#weather span {
+    color: #ffffffcb;
+    font-size: 14px;
+
+}
